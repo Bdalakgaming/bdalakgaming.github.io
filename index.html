@@ -1,12 +1,70 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BDALAK Gaming Studios - סטודיו אינדי ישראלי למשחקי מובייל מהירים, חדים ומלאי אקשן.">
   <title>BDALAK Gaming Studios</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>BDALAK Gaming Studios</h1>
-  <p>האתר הרשמי של בדלאק באוויר.</p>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__content">
+        <p class="eyebrow">www.bdalak-gaming.co.il</p>
+        <h1 id="hero-title">BDALAK Gaming Studios</h1>
+        <h2>משחקים קטנים. אקשן גדול.</h2>
+        <p class="hero__text">
+          בדלאק יוצרת משחקי מובייל מהירים, חדים, עם אנרגיית ארקייד והומור ישראלי.
+        </p>
+        <div class="hero__actions" aria-label="משחקים">
+          <a class="button button--primary" href="#game-bohen">בוחן מסלול</a>
+          <a class="button button--secondary" href="#game-ad-matai">עד מתי?</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section games" aria-labelledby="games-title">
+      <div class="section__header">
+        <p class="eyebrow">משחקים</p>
+        <h2 id="games-title">בקרוב על המסך שלך</h2>
+      </div>
+
+      <div class="game-grid">
+        <article class="game-card" id="game-bohen">
+          <span class="badge">בקרוב בגוגל פליי</span>
+          <h3>בוחן מסלול</h3>
+          <p>
+            אתגר מובייל קצר ומהיר שבודק רפלקסים, דיוק, זיכרון, שליטה ומהירות.
+          </p>
+        </article>
+
+        <article class="game-card" id="game-ad-matai">
+          <span class="badge badge--muted">בפיתוח</span>
+          <h3>עד מתי?</h3>
+          <p>
+            משחק הישרדות אקשן בפיתוח. יותר רעש, יותר כאוס, יותר בדלאק.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section studio" aria-labelledby="studio-title">
+      <div class="studio__panel">
+        <p class="eyebrow">הסטודיו</p>
+        <h2 id="studio-title">מי אנחנו</h2>
+        <p>
+          BDALAK Gaming Studios היא סטודיו אינדי ישראלי שבונה משחקים עם קצב גבוה,
+          בדיחות פנימיות, ואתגרים שמדברים לגיימרים.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <strong>BDALAK Gaming Studios</strong>
+    <span>© 2026</span>
+    <span>פרטיות | תמיכה | תנאי שימוש</span>
+  </footer>
 </body>
 </html>
