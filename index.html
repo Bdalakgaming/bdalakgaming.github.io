@@ -4,189 +4,71 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>BDALAK Gaming Studios | משחקים קטנים. אקשן גדול.</title>
-  <meta name="description" content="BDALAK Gaming Studios היא סטודיו אינדי ישראלי למשחקי מובייל מהירים, חדים וכאוטיים." />
+  <meta name="description" content="BDALAK Gaming Studios - סטודיו אינדי ישראלי לפיתוח משחקי מובייל עם אקשן, ארקייד והומור ישראלי." />
   <meta name="theme-color" content="#05070a" />
   <meta property="og:title" content="BDALAK Gaming Studios" />
   <meta property="og:description" content="משחקים קטנים. אקשן גדול." />
-  <meta property="og:image" content="assets/hero-bdalak.jpg" />
+  <meta property="og:image" content="assets/homepage-concept.png" />
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-  <link rel="preload" as="image" href="assets/hero-bdalak.jpg" />
+  <link rel="preload" as="image" href="assets/homepage-concept.png" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="noise" aria-hidden="true"></div>
-  <div class="page-shell">
-    <header class="site-header">
-      <a class="brand" href="#home" aria-label="BDALAK Gaming Studios">
-        <span class="brand-mark">✦</span>
-        <span class="brand-text">
-          <strong>BDALAK</strong>
-          <small>GAMING STUDIOS</small>
-        </span>
-      </a>
+  <a class="skip-link" href="#content">דלג לתוכן הראשי</a>
 
-      <nav class="main-nav" aria-label="ניווט ראשי">
-        <a href="#home" class="active">בית</a>
-        <a href="#games">המשחקים</a>
-        <a href="#bohan">בוחן מסלול</a>
-        <a href="#admatay">עד מתי?</a>
-        <a href="#studio">אודות</a>
-      </nav>
+  <main id="content" class="page">
+    <h1 class="sr-only">BDALAK Gaming Studios</h1>
+    <p class="sr-only">משחקים קטנים. אקשן גדול. האתר הרשמי של סטודיו BDALAK Gaming Studios עם המשחקים בוחן מסלול ועד מתי?.</p>
 
-      <div class="socials" aria-label="רשתות חברתיות">
-        <span>▶</span>
-        <span>◉</span>
-        <span>⌁</span>
+    <section class="concept-stage" aria-label="דף הבית של BDALAK Gaming Studios">
+      <div class="concept-frame">
+        <img
+          src="assets/homepage-concept.png"
+          alt="עיצוב דף הבית של BDALAK Gaming Studios עם הכותרת הראשית, אזור המשחקים שלנו, בוחן מסלול, עד מתי?, אודות הסטודיו ופוטר."
+          class="concept-image"
+          width="1055"
+          height="1491"
+        />
+
+        <!-- top nav / hero / cards clickable zones -->
+        <a class="hotspot hs-brand" href="#top" aria-label="חזרה לראש הדף"></a>
+        <a class="hotspot hs-home" href="#top" aria-label="בית"></a>
+        <a class="hotspot hs-games" href="#games-text" aria-label="המשחקים שלנו"></a>
+        <a class="hotspot hs-bohan-nav" href="#bohan-text" aria-label="בוחן מסלול"></a>
+        <a class="hotspot hs-ad-nav" href="#admatay-text" aria-label="עד מתי?"></a>
+        <a class="hotspot hs-about-nav" href="#about-text" aria-label="אודות"></a>
+        <a class="hotspot hs-contact-nav" href="#contact-text" aria-label="צור קשר"></a>
+
+        <a class="hotspot hs-bohan-cta" href="#bohan-text" aria-label="מעבר למידע על בוחן מסלול"></a>
+        <a class="hotspot hs-ad-cta" href="#admatay-text" aria-label="מעבר למידע על עד מתי?"></a>
+
+        <a class="hotspot hs-bohan-card" href="#bohan-text" aria-label="כרטיס המשחק בוחן מסלול"></a>
+        <a class="hotspot hs-ad-card" href="#admatay-text" aria-label="כרטיס המשחק עד מתי?"></a>
       </div>
-    </header>
+    </section>
 
-    <main id="home">
-      <section class="hero section-frame">
-        <div class="hero-bg" aria-hidden="true"></div>
-        <div class="hero-overlay" aria-hidden="true"></div>
-
-        <div class="hero-content">
-          <p class="eyebrow">אולפן משחקים אינדי ישראלי</p>
-          <h1>
-            <span>BDALAK</span>
-            <small>Gaming Studios</small>
-          </h1>
-          <h2>משחקים קטנים. אקשן גדול.</h2>
-          <p class="hero-copy">
-            בדלאק יוצרת משחקי מובייל מהירים, חדים, מצחיקים וכאוטיים —
-            כאלה שבודקים רפלקסים, דיוק, שליטה וקור רוח.
-          </p>
-
-          <div class="hero-actions">
-            <a class="btn btn-gold" href="#bohan">
-              <span>בוחן מסלול</span>
-              <b>›</b>
-            </a>
-            <a class="btn btn-blue" href="#admatay">
-              <span>עד מתי?</span>
-              <b>›</b>
-            </a>
-          </div>
-
-          <div class="hero-stats" aria-label="נקודות חוזק">
-            <div><strong>10</strong><span>אתגרים</span></div>
-            <div><strong>100</strong><span>ציון מושלם</span></div>
-            <div><strong>2</strong><span>משחקים</span></div>
-          </div>
-        </div>
-
-        <div class="scroll-cue" aria-hidden="true">
-          <span></span>
-          <small>גלול</small>
-        </div>
-      </section>
-
-      <section id="games" class="games-section">
-        <div class="section-title">
-          <span></span>
-          <h2>המשחקים שלנו</h2>
-          <span></span>
-        </div>
-
-        <div class="game-grid">
-          <article id="bohan" class="game-card warm">
-            <div class="card-art" style="background-image: url('assets/bohan-card.jpg');">
-              <img src="assets/bohan-logo.png" alt="בוחן מסלול" class="game-logo bohan-logo" />
-            </div>
-            <div class="card-content">
-              <div class="badge">בקרוב בגוגל פליי</div>
-              <h3>בוחן מסלול</h3>
-              <p>
-                סדרת אתגרי מובייל קצרים שבודקים רפלקסים, דיוק, זיכרון,
-                שליטה ומהירות. כל שלב קצר, חד, ומעניש טעויות.
-              </p>
-              <a class="card-link" href="#contact">למשחק <span>›</span></a>
-            </div>
-          </article>
-
-          <article id="admatay" class="game-card cool">
-            <div class="card-art" style="background-image: url('assets/ad-matay-card.jpg');">
-              <img src="assets/ad-matay-logo.png" alt="עד מתי?" class="game-logo ad-logo" />
-            </div>
-            <div class="card-content">
-              <div class="badge">בפיתוח</div>
-              <h3>עד מתי?</h3>
-              <p>
-                משחק הישרדות אקשן בפיתוח. להילחם. לשרוד. להתמיד.
-                כי האויב לא עוצר — אז גם אתה לא.
-              </p>
-              <a class="card-link blue" href="#contact">למשחק <span>›</span></a>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section id="studio" class="studio section-frame">
-        <div class="studio-copy">
-          <p class="eyebrow">BDALAK DNA</p>
-          <h2>אודות הסטודיו</h2>
-          <p>
-            אנחנו מאמינים במשחקים עם נשמה — כאלה שנולדים מתרבות,
-            מחוויות ומהמציאות שלנו. המשחקים שלנו משלבים אקשן טהור,
-            אתגרים אמיתיים והומור ישראלי חד.
-          </p>
-          <p class="studio-punch">פשוט לשחק. קשה להפסיק.</p>
-        </div>
-
-        <div class="feature-row">
-          <div class="feature-card gold">
-            <i>☠</i>
-            <h3>כאוס ישראלי</h3>
-            <p>השראה מהשטח, מהחיים ומהבלגן שאנחנו אוהבים.</p>
-          </div>
-          <div class="feature-card orange">
-            <i>⌖</i>
-            <h3>אקשן</h3>
-            <p>קרבות, תגובה מהירה ואדרנלין ללא הפסקה.</p>
-          </div>
-          <div class="feature-card cyan">
-            <i>ϟ</i>
-            <h3>ארקייד</h3>
-            <p>חוויות קצרות, ממכרות, וחזרה לעוד סיבוב.</p>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer id="contact" class="site-footer">
-      <div>
-        <h3>עקבו אחרינו</h3>
-        <p class="footer-icons">▶ ◉ ⌁</p>
+    <section class="sr-section" id="games-text" aria-label="מידע טקסטואלי על המשחקים">
+      <div class="sr-grid">
+        <article id="bohan-text" class="sr-card">
+          <h2>בוחן מסלול</h2>
+          <p>אתגר מובייל קצר ומהיר שבודק רפלקסים, דיוק, זיכרון, שליטה ומהירות. מסלול אימונים. מכשולים. משימות. רק הטובים מסיימים.</p>
+          <a href="#top">חזרה לראש הדף</a>
+        </article>
+        <article id="admatay-text" class="sr-card">
+          <h2>עד מתי?</h2>
+          <p>משחק הישרדות אקשן בפיתוח. להילחם. לשרוד. להתמיד. כי האויב לא עוצר — אז גם אתה לא.</p>
+          <a href="#top">חזרה לראש הדף</a>
+        </article>
       </div>
-
-      <div>
-        <h3>ניווט מהיר</h3>
-        <a href="#home">בית</a>
-        <a href="#games">המשחקים</a>
-        <a href="#studio">אודות</a>
-      </div>
-
-      <div>
-        <h3>קישורים שימושיים</h3>
-        <a href="#">מדיניות פרטיות</a>
-        <a href="#">תנאי שימוש</a>
-        <a href="#">תמיכה</a>
-      </div>
-
-      <div>
-        <h3>צור קשר</h3>
-        <p>info@bdalak.games</p>
-        <p>ישראל</p>
-      </div>
-
-      <div class="footer-brand">
-        <strong>BDALAK</strong>
-        <span>GAMING STUDIOS</span>
-        <p>משחקים קטנים. אקשן גדול.</p>
-      </div>
-
-      <small class="copyright">© 2026 BDALAK Gaming Studios. כל הזכויות שמורות.</small>
-    </footer>
-  </div>
+      <article id="about-text" class="sr-card full">
+        <h2>אודות הסטודיו</h2>
+        <p>BDALAK Gaming Studios הוא סטודיו אינדי ישראלי שמפתח משחקים עם אקשן, קצב, הומור מקומי ואתגרי גיימינג אמיתיים.</p>
+      </article>
+      <article id="contact-text" class="sr-card full">
+        <h2>צור קשר</h2>
+        <p>ליצירת קשר: info@bdalak.games</p>
+      </article>
+    </section>
+  </main>
 </body>
 </html>

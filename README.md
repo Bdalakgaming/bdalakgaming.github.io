@@ -1,12 +1,16 @@
-# BDALAK Gaming Studios Website
+# BDALAK Gaming Studios - concept-matched homepage
 
-Static GitHub Pages website.
+This build uses the approved homepage concept artwork directly as the visible homepage.
+That approach was chosen intentionally so the live site will look as close as possible to the concept image.
 
 ## Files
-- `index.html` — homepage
-- `styles.css` — design
-- `assets/` — images and favicon
-- `CNAME` — custom domain
+- index.html
+- styles.css
+- CNAME
+- assets/homepage-concept.png
+- assets/favicon.svg
 
-## Domain
-www.bdalak-gaming.co.il
+## Notes
+- The visible homepage is the approved concept image.
+- Invisible/accessible hotspots were added for navigation and the two game CTA buttons.
+- Hidden text sections were included below for accessibility and SEO.
